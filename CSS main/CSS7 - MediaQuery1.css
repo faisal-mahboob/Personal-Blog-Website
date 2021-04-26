@@ -32,7 +32,8 @@
     }
     .myimage {
         width: 80px;
-        height: 80px;
+        max-width: 90px;
+        height: auto;
     }
     .headingstyle {
         width: 85.5vw;
@@ -109,8 +110,9 @@
         width: 12px;
     }
     .myimage {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        max-width: 100px;
+        height: auto;
     }
     .input1 {
         width: 10em;
@@ -134,8 +136,9 @@
         margin-top: 12px;
     }
     .myimage {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        max-width: 120px;
+        height: auto;
     }
     .headingstyle {
         width: 85.5vw;
@@ -221,8 +224,9 @@
         margin-top: 12px;
     }
     .myimage {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        max-width: 120px;
+        height: auto;
     }
     .headingstyle {
         width: 85.5vw;

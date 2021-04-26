@@ -1,469 +1,183 @@
-.headerlogo {
-    top: 0;
-    left: 0;
-    padding: 0;
-    margin-left: 30px;
-    width: 10px;
-    color: white;
-    display: flex;
-    position: relative;
-}
-
-.imagelogo {
-    border-radius: 50px;
-}
-
-#logotitle {
-    top: 0;
-    left: 10;
-    padding: 0;
-    margin-left: 10px;
-    margin-top: 0;
-    height: 10px;
-    width: 10px;
-    color: white;
-    display: flex;
-}
-
-.headerstyle {
-    top: 0;
-    left: 0;
-    position: fixed;
-    width: 99vw;
-    background: black;
-    z-index: 100;
-}
-
-navbar {
-    display: grid;
-    grid-template-columns: 4fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
-    grid-template-rows: 1fr;
-    grid-gap: 5px;
-    padding-top: 4px;
-    padding-right: 20px;
-    justify-content: center;
-    align-items: center;
-    font-family: cursive;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-.navbox1 {
-    border: 2px solid white;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 2.0;
-    align-self: center;
-    background-color: red;
-}
-
-.navbox1:hover {
-    background-color: rgb(58, 51, 50);
-}
-
-.navbox2 {
-    border: 2px solid white;
-    background: turquoise;
-    border-radius: 10px;
-    line-height: 2.0;
-    align-self: center;
-    color: white;
-    text-align: center;
-}
-
-.navbox2:hover {
-    background-color: rgb(58, 51, 50);
-}
-
-.navbox3 {
-    border: 2px solid white;
-    background: turquoise;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 2.0;
-    color: white;
-    align-self: center;
-    background-color: lime;
-}
-
-.navbox3:hover {
-    background-color: rgb(58, 51, 50);
-}
-
-.navbox4 {
-    border: 2px solid white;
-    background: turquoise;
-    border-radius: 10px;
-    line-height: 2.0;
-    align-self: center;
-    color: white;
-    text-align: center;
-    background-color: mediumvioletred;
-}
-
-.navbox4:hover {
-    background-color: rgb(58, 51, 50);
-}
-
-a:hover {
-    color: white;
-}
-
-.navbox5 {
-    border: 2px solid white;
-    background: turquoise;
-    border-radius: 10px;
-    line-height: 2.0;
-    align-self: center;
-    color: white;
-    text-align: center;
-}
-
-.navbox5:hover {
-    background-color: rgb(58, 51, 50);
-}
-
-
-/* CSS for the Blog posts */
-
-
-/* CSS for the Blog posts */
-
-.blog1istanbul {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-    width: 90%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.blog2indonesia {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-    width: 90%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.container1 {
-    margin-top: 110px;
-    display: flex;
-    justify-content: center;
-}
-
-.content1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 80%;
-}
-
-.box1 {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.istimg {
-    filter: brightness(120%);
-}
-
-.fleximg {
-    display: flex;
-}
-
-
-/* Css for introduction of myself */
-
-
-/* Css for introduction of myself */
-
-.box1intro {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    margin-right: 0;
-    width: 100%;
-}
-
-.contentintro {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 95%;
-}
-
-.intro {
-    display: flex;
-}
-
-.image1 {
-    border-radius: 50px;
-    margin-right: 20px;
-    align-self: center;
-    margin-left: 5px;
-}
-
-.title1 {
-    font-style: italic;
-}
-
-.bio {
-    margin-left: 1px;
-}
-
-@media (max-width:280px) {
-    .headerstyle {
-        width: 100%;
-    }
-    .logotitle {
-        justify-self: start;
+    .headerlogo {
+        top: 0;
+        left: 0;
+        padding: 0;
+        margin-left: 30px;
         width: 10px;
+        color: white;
+        display: flex;
+        position: relative;
     }
-    .navbox1,
-    .navbox2,
-    .navbox3,
+    
+    .imagelogo {
+        border-radius: 50px;
+    }
+    
+    #logotitle {
+        top: 0;
+        left: 10;
+        padding: 0;
+        margin-left: 10px;
+        margin-top: 0;
+        height: 10px;
+        width: 10px;
+        color: white;
+        display: flex;
+    }
+    
+    .headerstyle {
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 99vw;
+        background: black;
+        z-index: 100;
+    }
+    
+    navbar {
+        display: grid;
+        grid-template-columns: 4fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
+        grid-template-rows: 1fr;
+        grid-gap: 5px;
+        padding-top: 4px;
+        padding-right: 20px;
+        justify-content: center;
+        align-items: center;
+        font-family: cursive;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .navbox1 {
+        border: 2px solid white;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 2.0;
+        align-self: center;
+        background-color: red;
+    }
+    
+    .navbox1:hover {
+        background-color: rgb(58, 51, 50);
+    }
+    
+    .navbox2 {
+        border: 2px solid white;
+        background: turquoise;
+        border-radius: 10px;
+        line-height: 2.0;
+        align-self: center;
+        color: white;
+        text-align: center;
+    }
+    
+    .navbox2:hover {
+        background-color: rgb(58, 51, 50);
+    }
+    
+    .navbox3 {
+        border: 2px solid white;
+        background: turquoise;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 2.0;
+        color: white;
+        align-self: center;
+        background-color: lime;
+    }
+    
+    .navbox3:hover {
+        background-color: rgb(58, 51, 50);
+    }
+    
     .navbox4 {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 13px;
+        border: 2px solid white;
+        background: turquoise;
+        border-radius: 10px;
+        line-height: 2.0;
+        align-self: center;
+        color: white;
+        text-align: center;
+        background-color: mediumvioletred;
     }
-    .headerlogo {
-        margin-left: 0;
-        width: 10vw;
+    
+    .navbox4:hover {
+        background-color: rgb(58, 51, 50);
     }
-    .imagelogo {
-        display: none;
+    
+    a:hover {
+        color: white;
     }
-    #logotitle {
-        height: auto;
-        left: 0;
-        font-size: 12px;
-        margin-top: 12px;
+    
+    .navbox5 {
+        border: 2px solid white;
+        background: turquoise;
+        border-radius: 10px;
+        line-height: 2.0;
+        align-self: center;
+        color: white;
+        text-align: center;
     }
-    .istimg,
-    .istimg2 {
-        width: 270px;
+    
+    .navbox5:hover {
+        background-color: rgb(58, 51, 50);
     }
-    .fleximg {
-        display: block;
-    }
+    /* CSS for the Blog posts */
+    /* CSS for the Blog posts */
+    
     .blog1istanbul {
-        width: 100vw;
-        margin-left: 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        object-fit: contain;
+        width: 90%;
+        max-width: 90%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
-    .box1 {
+    
+    .blog2indonesia {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        object-fit: contain;
+        width: 90%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .container1 {
+        margin-top: 110px;
+        display: flex;
         justify-content: center;
-        flex-direction: unset;
-        width: 90vw;
-        margin-left: 70px;
     }
+    
     .content1 {
-        width: 1fr;
-    }
-    .container1 {
-        width: 100vw;
-        margin-left: 50px;
-    }
-    .blog2indonesia {
-        width: 190vw;
-    }
-    .indo1pic,
-    .indo2pic {
-        width: 300px;
-    }
-    .box1intro {
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-        margin-right: 0;
-        width: 380px;
-    }
-    .contentintro {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        margin-right: 0;
-        width: 350px;
+        width: 80%;
     }
-}
-
-@media (min-width:281px) and (max-width:319px) {
-    .headerstyle {
-        width: 103vw;
-    }
-    #logotitle {
-        width: 12px;
-    }
-}
-
-@media (width:320px) {
-    navbar {
-        grid-template-columns: 4fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
-    }
-    .navbox1,
-    .navbox2,
-    .navbox3,
-    .navbox4,
-    .navbox5 {
-        font-size: 11px;
-    }
-    .imagelogo {
-        display: none;
-    }
-    .blog1istanbul {
-        text-align: center;
-        width: 80vw;
-        margin-left: 0px;
-    }
-    .fleximg {
-        display: inline;
-    }
-    .container1 {
-        margin-left: 40px;
-        width: 100vw;
-    }
-    .istimg,
-    .istimg2 {
-        width: 240px;
-    }
-    .headerstyle {
-        width: 100%;
-    }
-    .headerlogo {
-        margin-left: 0;
-    }
-    #logotitle {
-        height: auto;
-        left: 0;
-        font-size: 12px;
-        margin-top: 12px;
-    }
+    
     .box1 {
-        margin-left: 80px;
-    }
-    .container1 {
-        width: 90vw;
-        margin-left: 30px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
-    #turkcell {
-        margin-left: 0px;
-        margin-right: 0px;
+    
+    .istimg {
+        filter: brightness(120%);
     }
-    .blog2indonesia {
-        margin-left: 0px;
-        width: 80vw;
-    }
-    .indo1pic,
-    .indo2pic {
-        width: 240px;
-    }
-    #indopics {
-        text-align: center;
-    }
-    .indo {
-        text-align: center;
-    }
-    #moor {
-        text-align: center;
-    }
-    .moor1,
-    .moor2,
-    .moor3 {
-        width: 240px;
-    }
-    .box1intro {
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-        margin-right: 0;
-        width: 100%;
-    }
-    .contentintro {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        margin-right: 0;
-        width: 95%;
-    }
-}
-
-@media (min-width:321px) and (max-width:768px) {
-    navbar {
-        grid-template-columns: 4fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
-    }
-    .navbox1,
-    .navbox2,
-    .navbox3,
-    .navbox4,
-    .navbox5 {
-        font-size: 12px;
-    }
-    .imagelogo {
-        display: none;
-    }
-    .blog1istanbul {
-        text-align: center;
-        width: 80vw;
-        margin-left: 0px;
-    }
+    
     .fleximg {
-        display: inline;
+        display: flex;
+        justify-content: center;
     }
-    .container1 {
-        margin-left: 40px;
-        width: 100vw;
-    }
-    .istimg,
-    .istimg2 {
-        width: 270px;
-    }
-    .headerstyle {
-        width: 100%;
-    }
-    .headerlogo {
-        margin-left: 0;
-    }
-    #logotitle {
-        height: auto;
-        left: 0;
-        font-size: 12px;
-        margin-top: 12px;
-    }
-    .box1 {
-        margin-left: 80px;
-    }
-    .container1 {
-        width: 90vw;
-        margin-left: 30px;
-        align-items: center;
-    }
-    #turkcell {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .blog2indonesia {
-        margin-left: 0px;
-        width: 80vw;
-    }
-    .indo1pic,
-    .indo2pic {
-        width: 270px;
-    }
-    #indopics {
-        text-align: center;
-    }
-    .indo {
-        text-align: center;
-    }
-    #moor {
-        text-align: center;
-    }
-    .moor1,
-    .moor2,
-    .moor3 {
-        width: 270px;
-    }
+    /* Css for introduction of myself */
+    /* Css for introduction of myself */
+    
     .box1intro {
         margin-top: 40px;
         display: flex;
@@ -471,38 +185,372 @@ a:hover {
         margin-right: 0;
         width: 100%;
     }
+    
     .contentintro {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        margin-right: 0;
         width: 95%;
     }
-}
-
-@media (min-width:769px) and (max-width:1024px) {
-    .headerstyle {
-        width: 100vw;
-    }
-    #logotitle {
-        font-size: 21px;
-    }
-    .box1intro {
-        margin-top: 40px;
+    
+    .intro {
         display: flex;
-        justify-content: center;
-        margin-right: 0;
-        width: 100%;
     }
-    .istimg,
-    .istimg2 {
-        width: 50%;
+    
+    .image1 {
+        border-radius: 50px;
+        margin-right: 20px;
+        align-self: center;
+        margin-left: 5px;
     }
-    .indo1pic,
-    .indo2pic {
-        width: 50%;
+    
+    .title1 {
+        font-style: italic;
     }
-    .moor1,
-    .moor2,
-    .moor3 {
-        width: 270px;
+    
+    .bio {
+        margin-left: 1px;
     }
-}
+    /*css or the social */
+    /*css or the social */
+    
+    .social {
+        width: 80vw;
+        height: 20vh;
+        display: flex;
+    }
+    
+    .social2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.4em;
+        color: black;
+        margin-right: 4px;
+    }
+    
+    .facebook {
+        margin-right: 4px;
+    }
+    
+    .instagram {
+        margin-right: 4px;
+    }
+    
+    footer {
+        margin-left: 30px;
+    }
+    
+    @media (max-width:280px) {
+        .headerstyle {
+            width: 100%;
+        }
+        .logotitle {
+            justify-self: start;
+            width: 10px;
+        }
+        .navbox1,
+        .navbox2,
+        .navbox3,
+        .navbox4 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 13px;
+        }
+        .headerlogo {
+            margin-left: 0;
+            width: 10vw;
+        }
+        .imagelogo {
+            display: none;
+        }
+        #logotitle {
+            height: auto;
+            left: 0;
+            font-size: 12px;
+            margin-top: 12px;
+        }
+        .istimg,
+        .istimg2 {
+            width: 250px;
+            max-width: 270px;
+            height: auto;
+        }
+        .fleximg {
+            display: block;
+            text-align: center;
+        }
+        .blog1istanbul {
+            width: 100vw;
+            margin-left: 0px;
+        }
+        .box1 {
+            justify-content: center;
+            flex-direction: unset;
+            width: 90vw;
+            margin-left: 70px;
+        }
+        .content1 {
+            width: 1fr;
+        }
+        .container1 {
+            width: 100vw;
+            margin-left: 50px;
+        }
+        .blog2indonesia {
+            width: 190vw;
+        }
+        .indo1pic,
+        .indo2pic {
+            width: 280px;
+            max-width: 300px;
+            height: 100%;
+        }
+        .box1intro {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            margin-right: 0;
+            width: 380px;
+        }
+        .contentintro {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin-right: 0;
+            width: 350px;
+        }
+        .moor1,
+        .moor2,
+        .moor3 {
+            width: 220px;
+            max-width: 240px;
+            height: 100%;
+        }
+    }
+    
+    @media (min-width:281px) and (max-width:319px) {
+        .headerstyle {
+            width: 103vw;
+        }
+        #logotitle {
+            width: 12px;
+        }
+    }
+    
+    @media (width:320px) {
+        navbar {
+            grid-template-columns: 4fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+        }
+        .navbox1,
+        .navbox2,
+        .navbox3,
+        .navbox4,
+        .navbox5 {
+            font-size: 11px;
+        }
+        .imagelogo {
+            display: none;
+        }
+        .blog1istanbul {
+            text-align: center;
+            width: 80vw;
+            margin-left: 0px;
+        }
+        .fleximg {
+            display: inline;
+            text-align: center;
+        }
+        .container1 {
+            margin-left: 40px;
+            width: 100vw;
+        }
+        .istimg,
+        .istimg2 {
+            width: 230px;
+            max-width: 240px;
+            height: 100%;
+        }
+        .headerstyle {
+            width: 100%;
+        }
+        .headerlogo {
+            margin-left: 0;
+        }
+        #logotitle {
+            height: auto;
+            left: 0;
+            font-size: 12px;
+            margin-top: 12px;
+        }
+        .box1 {
+            margin-left: 80px;
+        }
+        .container1 {
+            width: 90vw;
+            margin-left: 30px;
+            align-items: center;
+        }
+        #turkcell {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .blog2indonesia {
+            margin-left: 0px;
+            width: 80vw;
+        }
+        .indo1pic,
+        .indo2pic {
+            width: 230px;
+            max-width: 240px;
+            height: auto;
+        }
+        #indopics {
+            text-align: center;
+        }
+        .indo {
+            text-align: center;
+        }
+        #moor {
+            text-align: center;
+        }
+        .moor1,
+        .moor2,
+        .moor3 {
+            width: 230px;
+            max-width: 240px;
+            height: auto;
+        }
+        .box1intro {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            margin-right: 0;
+            width: 100%;
+        }
+        .contentintro {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin-right: 0;
+            width: 95%;
+        }
+    }
+    
+    @media (min-width:321px) and (max-width:768px) {
+        navbar {
+            grid-template-columns: 4fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+        }
+        .navbox1,
+        .navbox2,
+        .navbox3,
+        .navbox4,
+        .navbox5 {
+            font-size: 12px;
+        }
+        .imagelogo {
+            display: none;
+        }
+        .blog1istanbul {
+            text-align: center;
+            width: 80vw;
+            margin-left: 0px;
+        }
+        .fleximg {
+            display: inline;
+        }
+        .container1 {
+            margin-left: 40px;
+            width: 100vw;
+        }
+        .istimg,
+        .istimg2 {
+            width: 250px;
+            max-width: 270px;
+            height: 500px;
+        }
+        .headerstyle {
+            width: 100%;
+        }
+        .headerlogo {
+            margin-left: 0;
+        }
+        #logotitle {
+            height: auto;
+            left: 0;
+            font-size: 12px;
+            margin-top: 12px;
+        }
+        .box1 {
+            margin-left: 80px;
+        }
+        .container1 {
+            width: 90vw;
+            margin-left: 30px;
+            align-items: center;
+        }
+        #turkcell {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .blog2indonesia {
+            margin-left: 0px;
+            width: 80vw;
+        }
+        .indo1pic,
+        .indo2pic {
+            width: 250px;
+            max-width: 270px;
+            height: auto;
+        }
+        #indopics {
+            text-align: center;
+        }
+        .indo {
+            text-align: center;
+        }
+        #moor {
+            text-align: center;
+        }
+        .moor1,
+        .moor2,
+        .moor3 {
+            width: 250px;
+            max-width: 270px;
+            height: auto;
+        }
+        .box1intro {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            margin-right: 0;
+            width: 100%;
+        }
+        .contentintro {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin-right: 0;
+            width: 95%;
+        }
+    }
+    
+    @media (min-width:769px) and (max-width:1024px) {
+        .headerstyle {
+            width: 100vw;
+        }
+        #logotitle {
+            font-size: 21px;
+        }
+        .box1intro {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            margin-right: 0;
+            width: 100%;
+        }
+        .istimg,
+        .istimg2 {
+            max-width: 50%;
+        }
+        .indo1pic,
+        .indo2pic {
+            width: 50%;
+            height: 100%;
+        }
+        .moor1,
+        .moor2,
+        .moor3 {
+            width: 250px;
+            max-width: 270px;
+        }
+    }
