@@ -39,7 +39,7 @@
         .outerbox {
             display: flex;
             flex-direction: row;
-            background-image: url("pexels-aron-visuals-1643130\ \(1\).jpg"), url("pexels-beyza-nur-kartal-7472948.jpg");
+            background-image: url("pexels-aron-visuals-1643130\ \(1\).jpg");
             background-size: cover;
             background-repeat: no-repeat;
             justify-content: space-evenly;

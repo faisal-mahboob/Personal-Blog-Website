@@ -8,6 +8,12 @@
             justify-content: space-evenly;
         }
         
+        figure {
+            background: tomato;
+            width: 100%;
+            margin-left: 0px;
+        }
+        
         .card1 {
             padding-top: 50px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
