@@ -1,0 +1,27 @@
+        /* Css used for the footer icons linked to my social websites*/
+        /* Css used for the footer icons linked to my social websites*/
+        
+        .social {
+            width: 80vw;
+            height: 20vh;
+            display: flex;
+        }
+        
+        .social2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.4em;
+            color: black;
+            margin-right: 4px;
+        }
+        
+        .facebook {
+            margin-right: 4px;
+        }
+        
+        .instagram {
+            margin-right: 4px;
+        }
+        
+        footer {
+            margin-left: 30px;
+        }

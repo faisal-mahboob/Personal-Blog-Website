@@ -1,0 +1,81 @@
+        /* Css used for Quote and Leave a Comment section */
+        /* Css used for Quote and Leave a Comment section */
+        
+        .commentbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        label {
+            font-size: 15px;
+            font-family: "Book Antiqua", sans-serif;
+        }
+        
+        .input1 {
+            line-height: 2.0em;
+            background: white;
+            border-radius: 36px;
+            width: 20em;
+        }
+        
+        .comment {
+            line-height: 2.0em;
+            background: white;
+            border-radius: 36px;
+            width: 20em;
+        }
+        
+        .submit {
+            line-height: 2em;
+            width: 5em;
+        }
+        
+        .lists1 {
+            left: 0;
+        }
+        
+        .outerbox {
+            display: flex;
+            flex-direction: row;
+            background-image: url("pexels-aron-visuals-1643130\ \(1\).jpg"), url("pexels-beyza-nur-kartal-7472948.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            justify-content: space-evenly;
+            width: 93.5vw;
+            margin: 25px 30px 23px 30px;
+            box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+            border: 2px solid white;
+            border-radius: 40px;
+            object-fit: contain;
+        }
+        
+        blockquote {
+            line-height: 4em;
+            font-weight: bolder;
+            font-style: italic;
+            font-size: 40px;
+            border: 2px solid red;
+            align-self: center;
+            background: wheat;
+            border-radius: 17px;
+            box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+        .block {
+            align-self: center;
+            margin-right: 400px;
+        }
+        
+        .forms {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 30px;
+            margin-right: 150px;
+        }
+        
+        .titlenotes {
+            text-align: center;
+        }

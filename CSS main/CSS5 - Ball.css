@@ -1,0 +1,37 @@
+        /* CSS used for ball */
+        /* CSS used for ball */
+        
+        .ball {
+            width: 60px;
+            height: 60px;
+            background: url(pexels-pixabay-161154.jpg);
+            background-size: contain;
+            border: 2px solid red;
+            position: relative;
+            border-radius: 50%;
+            animation-name: balls;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes balls {
+            0% {
+                left: 3px;
+            }
+            25% {
+                left: 605px;
+            }
+            50% {
+                left: 1250px;
+            }
+            75% {
+                left: 605px;
+            }
+            100% {
+                left: 0;
+            }
+        }
+        
+        .ballbox {
+            width: 95vw;
+        }

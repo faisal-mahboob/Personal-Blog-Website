@@ -1,0 +1,67 @@
+        /* Css used to show blog cards */
+        /* Css used to show blog cards */
+        
+        .contentbox {
+            display: flex;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            justify-content: space-evenly;
+        }
+        
+        .card1 {
+            padding-top: 50px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-top-left-radius: 40px;
+            width: 30%;
+            height: 30%;
+            background: tomato;
+            border-bottom-right-radius: 50px;
+        }
+        
+        .card1:hover {
+            box-shadow: 0px 8px 8px 0px rgba(15, 6, 6, 0.4);
+        }
+        
+        .card2 {
+            padding-top: 50px;
+            border-top-left-radius: 40px;
+            margin-top: 40px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 30%;
+            height: 30%;
+            background-color: tomato;
+            border-bottom-right-radius: 50px;
+        }
+        
+        .card2:hover {
+            box-shadow: 0px 8px 8px 0px rgba(15, 7, 7, 0.4);
+        }
+        
+        .container {
+            width: 85%;
+            height: 100%;
+            background: tomato;
+            padding-left: 10px;
+            border-bottom-right-radius: 50px;
+        }
+        
+        .spiderimage {
+            background: white;
+        }
+        
+        button {
+            background: sandybrown;
+            line-height: 1.2em;
+            color: darkblue;
+            border-radius: 13px;
+        }
+        
+        button:hover {
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+            color: blue;
+        }
+        
+        figcaption {
+            font-style: italic;
+            text-align: center;
+        }

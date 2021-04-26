@@ -1,0 +1,28 @@
+/* Css used for my own introduction*/
+
+
+/* Css used for my own introduction*/
+
+.introduction {
+    display: flex;
+    width: 93.5vw;
+    height: 28vh;
+    border: 2px solid white;
+    margin: 35px 30px 30px 30px;
+    align-items: center;
+    background: url(yoann-siloine-dyaxQ-aoGWY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+
+.myimage {
+    border-radius: 100px;
+    margin-right: 5px;
+    border: 2px solid black;
+}
+
+.aboutme {
+    font-family: "Book Antiqua", sans-serif;
+    font-size: 20px;
+}

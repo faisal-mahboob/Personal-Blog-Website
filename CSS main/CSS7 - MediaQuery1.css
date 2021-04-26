@@ -1,0 +1,322 @@
+/* media query of page 1 */
+
+
+/* media query of page 1 */
+
+@media (max-width:280px) {
+    .headerstyle {
+        width: 103vw;
+    }
+    .logotitle {
+        justify-self: start;
+        width: 10px;
+    }
+    .navbox1,
+    .navbox2,
+    .navbox3,
+    .navbox4 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 13px;
+    }
+    .headerlogo {
+        margin-left: 0;
+    }
+    .imagelogo {
+        display: none;
+    }
+    #logotitle {
+        height: auto;
+        left: 0;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .myimage {
+        width: 80px;
+        height: 80px;
+    }
+    .headingstyle {
+        width: 85.5vw;
+    }
+    .introduction {
+        width: 85.5vw;
+    }
+    .outerbox {
+        width: 85.5vw;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .blog {
+        font-size: 0.5em;
+        margin-top: 200px;
+    }
+    .headingstyle {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .aboutme {
+        font-size: 12px;
+    }
+    .card1,
+    .card2 {
+        width: 34%;
+    }
+    .block {
+        margin-right: 0;
+    }
+    blockquote {
+        font-size: 15px;
+    }
+    .forms {
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+    .input1 {
+        width: 16em;
+    }
+    .comment {
+        width: 15em;
+    }
+    .ballbox {
+        visibility: hidden;
+    }
+    .ball {
+        visibility: hidden;
+    }
+    .titlenotes {
+        color: black;
+        font-weight: bolder;
+        background: springgreen;
+        width: fit-content;
+        align-self: center;
+    }
+    .quotename {
+        font-weight: bolder;
+        color: black;
+        background: springgreen;
+    }
+    label {
+        font-weight: bolder;
+        background: springgreen;
+        border-radius: 1px;
+    }
+}
+
+@media (min-width:281px) and (max-width:319px) {
+    .headerstyle {
+        width: 103vw;
+    }
+    #logotitle {
+        width: 12px;
+    }
+    .myimage {
+        width: 100px;
+        height: 100px;
+    }
+    .input1 {
+        width: 10em;
+    }
+}
+
+@media (width:320px) {
+    .headerstyle {
+        width: 103vw;
+    }
+    .headerlogo {
+        margin-left: 0;
+    }
+    .imagelogo {
+        display: none;
+    }
+    #logotitle {
+        height: auto;
+        left: 0;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .myimage {
+        width: 120px;
+        height: 120px;
+    }
+    .headingstyle {
+        width: 85.5vw;
+    }
+    .introduction {
+        width: 85.5vw;
+    }
+    .outerbox {
+        width: 85.5vw;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .blog {
+        font-size: 0.5em;
+        margin-top: 200px;
+    }
+    .headingstyle {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .aboutme {
+        font-size: 12px;
+    }
+    .card1,
+    .card2 {
+        width: 34%;
+    }
+    .block {
+        margin-right: 0;
+    }
+    blockquote {
+        font-size: 15px;
+    }
+    .forms {
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+    .input1 {
+        width: 16em;
+    }
+    .comment {
+        width: 18em;
+    }
+    .ballbox {
+        visibility: hidden;
+    }
+    .ball {
+        visibility: hidden;
+    }
+    .titlenotes {
+        color: black;
+        font-weight: bolder;
+        background: springgreen;
+        width: fit-content;
+        align-self: center;
+    }
+    .quotename {
+        font-weight: bolder;
+        color: black;
+        background: springgreen;
+    }
+    label {
+        font-weight: bolder;
+        background: springgreen;
+        border-radius: 1px;
+    }
+}
+
+@media (min-width:321px) and (max-width:768px) {
+    .headerstyle {
+        width: 103vw;
+    }
+    .headerlogo {
+        margin-left: 0;
+    }
+    .imagelogo {
+        display: none;
+    }
+    #logotitle {
+        height: auto;
+        left: 0;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .myimage {
+        width: 120px;
+        height: 120px;
+    }
+    .headingstyle {
+        width: 85.5vw;
+    }
+    .introduction {
+        width: 85.5vw;
+    }
+    .outerbox {
+        width: 85.5vw;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .blog {
+        font-size: 0.5em;
+        margin-top: 200px;
+    }
+    .headingstyle {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .aboutme {
+        font-size: 14px;
+    }
+    .card1,
+    .card2 {
+        width: 34%;
+    }
+    .block {
+        margin-right: 0;
+    }
+    blockquote {
+        font-size: 15px;
+    }
+    .forms {
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+    .input1 {
+        width: 16em;
+    }
+    .comment {
+        width: 18em;
+    }
+    .ballbox {
+        visibility: hidden;
+    }
+    .ball {
+        visibility: hidden;
+    }
+    .titlenotes {
+        color: black;
+        font-weight: bolder;
+        background: springgreen;
+        width: fit-content;
+        align-self: center;
+    }
+    .quotename {
+        font-weight: bolder;
+        color: black;
+        background: springgreen;
+    }
+    label {
+        font-weight: bolder;
+        background: springgreen;
+        border-radius: 1px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .headerstyle {
+        width: 103vw;
+    }
+    #logotitle {
+        font-size: 21px;
+    }
+    .blog {
+        margin-top: 230px;
+    }
+    .aboutme {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    .pblog {
+        font-size: 24px;
+    }
+    figcaption {
+        font-size: 24px;
+    }
+    .block {
+        margin-right: 10px;
+    }
+    .ball {
+        visibility: hidden;
+    }
+}
