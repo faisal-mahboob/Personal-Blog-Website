@@ -58,8 +58,11 @@
             font-size: 40px;
             border: 2px solid red;
             align-self: center;
+            justify-self:center;
             background: wheat;
             border-radius: 17px;
+            margin-right:60px;
+            text-align:center;
             box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.3);
         }
         
